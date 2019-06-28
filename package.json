@@ -1,0 +1,27 @@
+{
+  "name": "ekoro-api",
+  "version": "1.0.0",
+  "description": "Ekoro's API",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sea-horses/ekoro-api.git"
+  },
+  "keywords": [
+    "ecology"
+  ],
+  "author": "Sea-Horses",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sea-horses/ekoro-api/issues"
+  },
+  "homepage": "https://github.com/sea-horses/ekoro-api#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.6.7",
+    "express": "^4.17.1",
+    "graphql": "^14.0.0"
+  }
+}
