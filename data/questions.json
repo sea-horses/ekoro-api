@@ -1,0 +1,34 @@
+[
+  {
+  	"id": 1,
+  	"label": "Have you heard about our savior hsayan?",
+  	"type": "SINGLE_ANSWER",
+    "category": "RELIGION",
+    "answers": [
+     {
+       "id": 1,
+       "label": "Yes"
+     },
+     {
+       "id": 2,
+       "label": "No"
+     } 
+    ]
+  },
+  {
+  	"id": 2,
+  	"label": "Do you possess electronic appliances?",
+  	"type": "MULTIPLE_ANSWER",
+    "category": "HOME",
+    "answers": [
+     {
+       "id": 1,
+       "label": "TV"
+     },
+     {
+       "id": 2,
+       "label": "PlayStation 4"
+     }
+    ]
+  }
+]
