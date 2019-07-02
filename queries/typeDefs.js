@@ -1,5 +1,5 @@
 const answerType = `type Answer {
-	id: ID,
+	id: ID
 	label: String
 }`
 

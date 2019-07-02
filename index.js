@@ -3,13 +3,17 @@ const { ApolloServer, gql } = require('apollo-server-express')
 
 const queriesResolvers = require('./queries/resolvers')
 const queriesTypedef = require('./queries/typeDefs')
+const mutationsResolvers = require('./mutations/resolvers')
+const mutationsTypedef = require('./mutations/typeDefs')
 
 const typeDefs = gql`
   ${queriesTypedef}
+  ${mutationsTypedef}
 `;
 
 const resolvers = {
   ...queriesResolvers,
+  ...mutationsResolvers,
 };
 
 const server = new ApolloServer({ typeDefs, resolvers })
