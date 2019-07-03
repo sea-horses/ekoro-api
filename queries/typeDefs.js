@@ -1,6 +1,7 @@
 const answerType = `type Answer {
 	id: ID
 	label: String
+  weight: Int
 }`
 
 const questionType = `type Question {

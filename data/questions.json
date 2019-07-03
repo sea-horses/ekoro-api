@@ -1,34 +1,145 @@
 [
   {
   	"id": 1,
-  	"label": "Have you heard about our savior hsayan?",
+  	"label": "Do you recycle?",
   	"type": "SINGLE_ANSWER",
-    "category": "RELIGION",
-    "answers": [
-     {
-       "id": 1,
-       "label": "Yes"
-     },
-     {
-       "id": 2,
-       "label": "No"
-     } 
-    ]
-  },
-  {
-  	"id": 2,
-  	"label": "Do you possess electronic appliances?",
-  	"type": "MULTIPLE_ANSWER",
     "category": "HOME",
     "answers": [
      {
        "id": 1,
-       "label": "TV"
+       "label": "Yes",
+       "weight": 2
      },
      {
        "id": 2,
-       "label": "PlayStation 4"
+       "label": "No",
+       "weight": 1
+     } 
+    ]
+  },
+  {
+    "id": 2,
+    "label": "Do you own a thermic car (disel, fuel, ..)?",
+    "type": "SINGLE_ANSWER",
+    "category": "HOME",
+    "answers": [
+     {
+       "id": 1,
+       "label": "Yes",
+       "weight": 1
+     },
+     {
+       "id": 2,
+       "label": "No",
+       "weight": 2
+     } 
+    ]
+  },
+  {
+    "id": 3,
+    "label": "At the end of the day, do you switch off your computer (or any other electronic appliances)?",
+    "type": "SINGLE_ANSWER",
+    "category": "WORK",
+    "answers": [
+     {
+       "id": 1,
+       "label": "Yes",
+       "weight": 1
+     },
+     {
+       "id": 2,
+       "label": "No",
+       "weight": 2
+     } 
+    ]
+  },
+  {
+    "id": 4,
+    "label": "How do you commute to work?",
+    "type": "SINGLE_ANSWER",
+    "category": "WORK",
+    "answers": [
+     {
+       "id": 1,
+       "label": "By foot/bycicle",
+       "weight": 4
+     },
+     {
+       "id": 2,
+       "label": "Using public transportations",
+       "weight": 3
+     },
+     {
+       "id": 3,
+       "label": "By car and any of the above",
+       "weight": 2
+     },
+     {
+       "id": 4,
+       "label": "By car/bike",
+       "weight": 1
      }
+    ]
+  },
+  {
+    "id": 5,
+    "label": "How often do you consume meat/dairies?",
+    "type": "SINGLE_ANSWER",
+    "category": "FOOD",
+    "answers": [
+     {
+       "id": 1,
+       "label": "Daily or more",
+       "weight": 1
+     },
+     {
+       "id": 2,
+       "label": "Few times a week",
+       "weight": 2
+     },
+     {
+       "id": 3,
+       "label": "Few times a month",
+       "weight": 3
+     },
+     {
+       "id": 4,
+       "label": "Very scarcely",
+       "weight": 4
+     },
+     {
+       "id": 5,
+       "label": "Never",
+       "weight": 5
+     }
+    ]
+  },
+  {
+    "id": 6,
+    "label": "How often do you waste food?",
+    "type": "SINGLE_ANSWER",
+    "category": "FOOD",
+    "answers": [
+     {
+       "id": 1,
+       "label": "Very often",
+       "weight": 1
+     },
+     {
+       "id": 2,
+       "label": "Often",
+       "weight": 2
+     },
+     {
+       "id": 3,
+       "label": "Not so often",
+       "weight": 3
+     },
+     {
+       "id": 4,
+       "label": "Never",
+       "weight": 4
+     } 
     ]
   }
 ]
