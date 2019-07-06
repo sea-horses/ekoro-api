@@ -1,11 +1,11 @@
 const answerInputType = `input AnswerInput {
-	questionId: ID
-	answerId: ID
+	questionId: Int
+	answerId: Int
 }`
 
 const resultType = `type Result {
 	category: String
-  value: Int
+  value: Float
 }`
 
 const computeAnswerTypeDef = `
