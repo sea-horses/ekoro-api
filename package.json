@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/sea-horses/ekoro-api#readme",
   "dependencies": {
-    "apollo-server-express": "^2.14.2",
+    "apollo-server-express": "^2.19",
     "express": "^4.17.1",
-    "graphql": "^14.0.0"
+    "graphql": "^15.4.0"
   }
 }
